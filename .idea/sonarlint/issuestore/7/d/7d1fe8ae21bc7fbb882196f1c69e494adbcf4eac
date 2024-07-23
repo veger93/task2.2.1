@@ -1,0 +1,13 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ï¿ù2J$2b7589db-d003-431a-a4d2-c62f4a6cf84d
+o
+java:S1874",Remove this use of "save"; it is deprecated.(¨Ä®‹8”ï¿ù2J$3069a8f2-d98c-438f-a34f-f44d6be26885
+v
+java:S1874"3Remove this use of "createQuery"; it is deprecated.(Ëìîˆ8•ï¿ù2J$84e33e84-e8b1-41ff-951e-2c3c6a6be17c
+{
+java:S1874""3Remove this use of "createQuery"; it is deprecated.(…«¾•üÿÿÿÿ8–ï¿ù2J$1495e037-7021-42fd-841a-7d9b45f0bf7f
+{
+java:S1854)"8Remove this useless assignment to local variable "user".(Ç­‚û8—ï¿ù2J$83dfdb48-8392-4891-8868-1f34387168b8
+v
+java:S1874*"3Remove this use of "createQuery"; it is deprecated.(÷ÂÓ›8™ï¿ù2J$bcff1537-47f1-4899-9928-c7cb1b50be7d

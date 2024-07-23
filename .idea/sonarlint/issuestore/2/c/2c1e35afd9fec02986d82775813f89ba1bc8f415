@@ -1,6 +1,15 @@
 
-@	java:S106"+Replace this use of System.out by a logger.(ÂŒæí
-E	java:S106"+Replace this use of System.out by a logger.(‘ßâàûÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(²¾ïşøÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(©Í­¾ûÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+–
+java:S1192+"NDefine a constant instead of duplicating this literal "First Name = " 3 times.(‘ßâàûÿÿÿÿ8éÏù2J$a0d50d09-772e-4dd4-8fa5-1efd12038358
+±
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Á¯¦ş8ìêØù2J$0b35b75a-f3c0-4db1-8f01-58ba77e1e2b6
+m	java:S106*"+Replace this use of System.out by a logger.(ÂŒæí8ùšÏù2J$b35aa88b-5c14-4363-9c7d-146411536e8a
+r	java:S106+"+Replace this use of System.out by a logger.(‘ßâàûÿÿÿÿ8ùšÏù2J$08c6ab90-65d0-4a77-9dac-1decb0325aba
+r	java:S106,"+Replace this use of System.out by a logger.(²¾ïşøÿÿÿÿ8úšÏù2J$36a25bd0-83b0-4dc7-b8db-62bf5ce712a9
+r	java:S106-"+Replace this use of System.out by a logger.(©Í­¾ûÿÿÿÿ8úšÏù2J$7958af90-6ab4-4c22-9f10-5a0e151754fe
+r	java:S106."+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ûšÏù2J$d52a8bcf-e8ed-4e32-ba44-56836fa024a4
+r	java:S1063"+Replace this use of System.out by a logger.(¨ŸÔÑıÿÿÿÿ8ûšÏù2J$c20eedec-fb00-4392-aeed-eb4fe769a543
+r	java:S1064"+Replace this use of System.out by a logger.(İî“ ÿÿÿÿÿ8ûšÏù2J$a5a69d5b-7098-4706-83fb-4bdac3aaf56d
+m	java:S1065"+Replace this use of System.out by a logger.(ºäŸ‡8üšÏù2J$b706701a-8b8a-42c0-a58f-ba11725e2c9a
+r	java:S1066"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8üšÏù2J$06c595e9-4fa9-486d-abd4-a3de8579e7cd
+l	java:S1069"+Replace this use of System.out by a logger.(ÊËĞ8éÏù2J$3aababf9-92c0-4aff-ad78-55166da814f4

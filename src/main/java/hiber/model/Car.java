@@ -1,21 +1,24 @@
 package hiber.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
-@Table(name = "cars")
+@Table(name = "car")
 public class Car {
 
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column(name = "model")
     private String model;
 
     @Column(name = "series")
     private int series;
+
+    @OneToOne(mappedBy = "car")
+    public User user;
 
     public Car() {
     }
@@ -25,11 +28,11 @@ public class Car {
         this.model = model;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -47,6 +50,22 @@ public class Car {
 
     public void setSeries(int series) {
         this.series = series;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+    public User getUser() {
+        return user;
+    }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "id=" + id +
+                ", model='" + model + '\'' +
+                ", series=" + series +
+                '}';
     }
 }
 
