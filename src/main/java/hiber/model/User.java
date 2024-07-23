@@ -1,9 +1,6 @@
 package hiber.model;
 
-
 import jakarta.persistence.*;
-import org.hibernate.annotations.Cascade;
-import org.springframework.beans.factory.annotation.Autowired;
 
 @Entity
 @Table(name = "users")
@@ -11,7 +8,6 @@ public class User {
 
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//   @Column(name = "id")
    private Long id;
 
    @Column(name = "first_name")
@@ -67,10 +63,8 @@ public class User {
       this.email = email;
    }
 
-   //создали связь (создание) автомобиля с юзером по сеттеру
    public void setCar(Car car) {
       this.car = car;
-//      car.setUser(this);
    }
 
    public Car getCar() {
